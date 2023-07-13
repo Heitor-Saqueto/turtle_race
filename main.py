@@ -8,10 +8,12 @@ screen.setup(width=500, height=400)
 ##########################################
 is_race_on = False
 all_turtle = []
+#############################################
 colors = ["red", "orange", "yellow", "green", "blue",  "pink", "black", "gray"]
+#############################################
 y_position = -100
 user_bet = screen.textinput(title="Make your bet", prompt="Which turtle will win the race? choose a color: ")
-
+#################################################
 for color in colors:
     new_turtle = Turtle(shape="turtle")
     new_turtle.penup()
