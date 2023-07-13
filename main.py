@@ -38,7 +38,5 @@ while is_race_on:
                 print(f"You've Lost the turtle color {winning_color} crossed the line first")
 
 
-
-
 screen.exitonclick()
 
